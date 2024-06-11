@@ -36,4 +36,4 @@ RUN npm run build
 EXPOSE 80
 
 # أمر تشغيل التطبيق
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=80"]
+CMD ["apache2-foreground"]
