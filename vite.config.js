@@ -6,9 +6,6 @@ export default defineConfig({
         port: process.env.PORT || 3000,
         host: true,
     },
-    build: {
-        outDir: 'dist', // تأكد من أن الدليل هنا هو "dist"
-    },
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
